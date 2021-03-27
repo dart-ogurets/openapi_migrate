@@ -1,12 +1,13 @@
 name: openapi_migrate
 version: 1.0.0
 description: Intended to allow people to migrate their code to the new null safe style as an intermediary step
-homepage: homepage
+homepage: https://www.featurehub.io
 environment:
   sdk: '>=2.9.0 <3.0.0'
 dependencies:
   collection: '^1.14.3'
-  analyzer: any
+  analyzer: ^0.39.17
+  glob: ^2.0.1
   args: ^1.5.1
   yaml: ^2.2.1
   codemod: ^0.3.0

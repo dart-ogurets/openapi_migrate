@@ -1,4 +1,4 @@
-= OpenAPI Migrate
+# OpenAPI Migrate
 
 This is intended to help developers migrate from 4.2 and earlier versions of the Dart OpenAPI compiler to  the 5.0 and later versions.
 
@@ -19,23 +19,23 @@ It will only do this for classes listed in your API, and it may require you to r
 code which itself may have this pattern embedded in it. It is worthwhile to keep running the command until it doesn't
 trigger any further matches.
 
-== Installing from source:
+## Installing from source:
 
-----
+```bash
 pub global activate --source path .
-----
+```
 
 Installing from pub.dev:
 
-----
+```bash
 pub global activate openapi_migrate
-----
+```
 
-== Use
+## Use
 
-----
+```bash
 pub run openapi_migrate
-----
+```
 
 Extra parameters are:
 
@@ -46,7 +46,7 @@ Extra parameters are:
 The replacement is interactive and you can combine the filename and glob patterns. If you don't specify either then
 it will look for and load the pubspec.yaml file and proceed to go over all files.
 
-== Thanks
+## Thanks
 
 This is the product of http://featurehub.io[FeatureHub / Anyways Labs] who do all of the work around OpenAPI Dart and Ogurets.
 
