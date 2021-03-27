@@ -2,6 +2,7 @@ name: openapi_migrate
 version: 1.0.0
 description: Intended to allow people to migrate their code to the new null safe style as an intermediary step
 homepage: https://www.featurehub.io
+repository: https://github.com/dart-ogurets/openapi_migrate
 environment:
   sdk: '>=2.9.0 <3.0.0'
 dependencies:
